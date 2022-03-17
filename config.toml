@@ -1,0 +1,7 @@
+baseURL = 'https://www.tkhdfjnm.jp/'
+languageCode = 'ja-jp'
+defaultContentLanguage = 'ja'
+hasCJKLanguage = true
+title = 'tkhdfjnm.jp'
+copyright = 'Copyright © 2022 tkhdfjnm.jp. All Rights Reserved.'
+theme = 'hugo-mytheme'
