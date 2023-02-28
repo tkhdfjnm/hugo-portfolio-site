@@ -4,11 +4,13 @@ description: "VRoid で作成したアバターを VRChat で利用する覚書"
 images: [/img/creation-companion.jpg]
 categories: "Tech"
 date: 2023-03-01T01:00:00+09:00
-lastmod: 2023-03-01T01:00:00+09:00
+lastmod: 2023-03-01T01:15:00+09:00
 draft: false
 ---
+## 想定する読者
 僕のように「モデリングはできないけど、オリジナルのアバターで遊びたい！」という人向け
 
+## 実際にやること
 ざっくり以下の 3 ステップで完結！
 
 - VRoid で作成したモデルを VRM 形式でエクスポート
@@ -34,11 +36,11 @@ Unity 環境を先に整える必要があることさえ知っておけば大�
 
 ## Unity 環境の整備
 あらかじめやっておくのだ
-- [Unity Editor](https://unity.com/releases/editor/whats-new/2019.4.31) のインストール
-- [VRChat Creator Companion](https://vrchat.com/home/download) のインストール
-- VRChat Creator Companion で新規プロジェクト作成
+1. [Unity Editor](https://unity.com/releases/editor/whats-new/2019.4.31) のインストール
+1. [VRChat Creator Companion](https://vrchat.com/home/download) のインストール
+1. VRChat Creator Companion で新規プロジェクト作成
 ![creation-companion上の表示](/img/creation-companion.jpg)
-- 作成したプロジェクトに [UniVRM](https://github.com/vrm-c/UniVRM/releases) パッケージをインポート
+1. 作成したプロジェクトに [UniVRM](https://github.com/vrm-c/UniVRM/releases) パッケージをインポート
 
 ## その他参考にしたサイト様
 - [VroidをVRChatへアップロードするまとめ](https://rekor64y.web.fc2.com)
